@@ -10,7 +10,6 @@
   <style>
     * {
       border: 1px green dashed;
-      display: block
     }
 
     html {
@@ -47,6 +46,8 @@
     .item {
       background-color: rgba(241, 227, 228, 0.5);
       margin-bottom: 20px;
+      display: flex;
+      align-items: center;
     }
 
     .main-container {
@@ -66,6 +67,13 @@
 
     .social-icons-row {
       margin-bottom: 30px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .link-text {
+      text-align: center;
+      flex-grow: 1;
     }
   </style>
 </head>
@@ -97,14 +105,14 @@
       <div class="links-row">
         <div class="item">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Olu3CNgKC9KyC6ll23daB86AMXUjUpm87w&s" class="thumbnail">
-          <a target="_blank" href="https://www.si.com/college/2019/08/13/cal-bears-secondary-jaylinn-hawkins-ashtyn-davis">
+          <a class="link-text" target="_blank" href="https://www.si.com/college/2019/08/13/cal-bears-secondary-jaylinn-hawkins-ashtyn-davis">
             Cal Football Is Awesome
           </a>
         </div>
 
         <div class="item"> 
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiC223lc_cOI-y0ooOEpI-KZhesar97eADlw&s" class=thumbnail>
-          <a target="_blank" href="https://www.49ers.com/">
+          <a class="link-text" target="_blank" href="https://www.49ers.com/">
             Go 49ers!
           </a>
         </div>
